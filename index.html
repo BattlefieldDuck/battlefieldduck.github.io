@@ -7,10 +7,37 @@
 		<title>Test</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 	</head>
-	<body bgcolor="#E6E6FA">
+	<body>
 		<h1>Hello world!</h1>
-		<textarea class="form-control" rows="4" cols="50"></textarea>
-		<script src="js/program.js"></script>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label for="InputProgramCode">Input program code</label>
+						<textarea id="InputProgramCode" class="form-control" rows="30"></textarea>
+						<button type="button" onclick="MakeKeyValues()" class="btn btn-primary btn-lg btn-block">Run</button>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-12">
+					<h4>Offset to find closest public to:</h4>
+					<input type="number" id="SearchValue" class="form-control"/>
+					
+					<h3>Result:</h3>
+					<input type="text" readonly id="exampleInputPassword2" class="form-control"/>
+				</div>
+			</div>
+		</div>
+		
+		<!--<script src="js/program.js"></script>-->
+		<script>
+		
+		
+		
+		
+		</script>
 		<!-- Bootstrap core JavaScript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
